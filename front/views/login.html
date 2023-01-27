@@ -1,0 +1,11 @@
+{% extends 'layout/layout.html' %} {% block content %}
+
+<h2>LOGIN</h2>
+<form id="login" method="post" action="/login">
+  <ul>
+    <li>ID : <input type="text" name="userid" placeholder="아이디를 입력해주세요" /></li>
+    <li>PW : <input type="password" name="userpw" placeholder="패스워드를 입력해주세요" /></li>
+  </ul>
+  <button type="submit">로그인</button>
+</form>
+{% endblock %}
